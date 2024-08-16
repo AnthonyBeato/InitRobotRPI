@@ -36,7 +36,7 @@ sudo apt install ros-humble-ros-base -y
 
 sudo apt install ros-dev-tools -y
 
-mkdir robot_ws && cd robot_ws && mkdir src
+mkdir -p ~/robot_ws/src
 colcon build
 
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
