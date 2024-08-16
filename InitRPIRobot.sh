@@ -67,6 +67,7 @@ sudo apt-get install -y \
   ros-humble-ament-cmake \
   ros-humble-rclcpp \
   ros-humble-rclcpp-lifecycle \
+  ros-humble-xacro \
   libserial-dev \
   && npm install -g wscat 
 
