@@ -1,3 +1,6 @@
+#!/bin/bash
+cd ~
+
 #
 # 1. Configuración de Locale
 #
@@ -37,6 +40,7 @@ sudo apt install ros-humble-ros-base -y
 sudo apt install ros-dev-tools -y
 
 mkdir -p ~/robot_ws/src
+cd ~/robot_ws
 colcon build
 
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
