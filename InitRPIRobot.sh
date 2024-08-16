@@ -52,7 +52,6 @@ sudo apt-get install -y \
   nano \
   vim \
   python3-pip \
-  npm \
   python3-serial \
   ros-humble-rosbridge-server \
   python3-colcon-common-extensions \
@@ -69,7 +68,6 @@ sudo apt-get install -y \
   ros-humble-rclcpp-lifecycle \
   ros-humble-xacro \
   libserial-dev \
-  && npm install -g wscat 
 
 
 #
