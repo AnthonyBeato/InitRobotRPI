@@ -67,8 +67,7 @@ sudo apt-get install -y \
   ros-humble-rclcpp \
   ros-humble-rclcpp-lifecycle \
   ros-humble-xacro \
-  libserial-dev \
-
+  libserial-dev 
 
 #
 # 5. Configuración del Espacio de Trabajo y Clonación de Repositorios
