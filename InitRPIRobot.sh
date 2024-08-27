@@ -80,6 +80,8 @@ sudo apt-get install -y \
 cd ~/robot_ws/src
 
 git clone https://github.com/AnthonyBeato/diffdrive_msp432.git 
+git clone https://github.com/AnthonyBeato/health_check_pkg.git
+git clone https://github.com/AnthonyBeato/robot_routine_management_pkg.git
 cd ..
 colcon build
 source ~/.bashrc
